@@ -1,0 +1,23 @@
+body{
+    background: white;
+  align-items: center;
+  padding: 50px;
+}
+
+h1{
+    background-color:#716e6e;
+    align-items: center;
+    text-align: center;
+    border-bottom-style:solid;
+}
+h2{ 
+    background-color:grey;
+    align-items: center;
+    text-align: center;
+}
+p{
+    text-align:justify;
+}
+li{
+    text-align: justify;
+}
