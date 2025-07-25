@@ -1,8 +1,14 @@
 body{
     background: white;
   align-items: center;
-
+  margin: 0;
 }
+.a4-sheet {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 20px auto;
+    padding: 20mm;
+    background: white;
 
 h1{
     background-color:#716e6e;
@@ -20,4 +26,23 @@ p{
 }
 li{
     text-align: justify;
+}
+ul {
+    padding-left: 20px;
+}
+
+/* Print-specific styling */
+@media print {
+    body {
+        background: white;
+    }
+        .a4-sheet {
+        box-shadow: none;
+        margin: 0;
+    }
+
+    @page {
+        size: A4;
+        margin: 20mm;
+    }
 }
