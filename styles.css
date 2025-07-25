@@ -32,17 +32,10 @@ ul {
 }
 
 /* Print-specific styling */
-@media print {
-    body {
-        background: white;
-    }
+@media  {
+
         .a4-sheet {
         box-shadow: none;
         margin: 0;
-    }
-
-    @page {
-        size: A4;
-        margin: 20mm;
     }
 }
